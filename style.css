@@ -85,17 +85,24 @@ header {
 
 .services__tabs {
     display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
     gap: 16px;
     margin-top: 24px;
 }
 
 .services__tab {
+    flex:0 0 auto;
     font-weight: 500;
     padding: 8px 16px;
     background-color: #ffffff;
     color: #7e7e82;
     border-radius: 6px;
-    border: 2px solid #b8ffec;
+    border: 2px solid transparent;
+}
+.services__tab:hover {
+    border-color: #41f6d7;
+   
 }
 
   
