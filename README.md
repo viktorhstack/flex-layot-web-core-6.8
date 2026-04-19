@@ -7,7 +7,7 @@ Responsive training project based on Figma layot
 -Flexbox
 
 ## Live Preview
-[ Open Project](https://github.com/viktorhstack/flex-layot-web-core-6.8)
+[ Open Project](https://viktorhstack.github.io/flex-layot-web-core-6.8/)
 
 ## Author
 VIKTOR KHEGAI
