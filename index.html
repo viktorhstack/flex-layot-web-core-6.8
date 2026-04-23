@@ -7,33 +7,69 @@
     <title>CPS - Услуги и сервисы</title>
   </head>
   <body>
-    <header>
-      <div class="header__main">
-        <img src="images/menu.svg" alt="меню" class="header_menu" />
-        <img src="images/logo.svg" alt="логотип" class="header_logo" />
-
-        <div class="divider"></div>
-      </div>
-
-      <div class="header__actions">
-        <img src="images/repair.svg" alt="ремонт" class="header_repair" />
-        <img src="images/search.svg" alt="поиск" class="header_search" />
-      </div>
-    </header>
-    <main>
-      <section class="services">
-        <div class="services__header">
-          <div class="services__line"></div>
-          <h2 class="services__title">Услуги и сервисы</h2>
+    <div class="container">
+      <header>
+        <div class="header__main">
+          <button class="header__menu-button">
+            <img src="images/menu.svg" alt="меню" class="header_menu" />
+          </button>
+          <a href="index.html">
+            <img src="images/logo.svg" alt="логотип" class="header_logo" />
+          </a>
+          <div class="divider"></div>
         </div>
-        <div class="services__tabs">
-          <button class="services__tab">Ремонтируемые устройства</button>
-          <button class="services__tab">Дополнительные услуги</button>
-          <button class="services__tab">Цены на услуги</button>
-          <button class="services__tab">Специальные цены</button>
-          <button class="services__tab">Адреса сервисных центров</button>
+
+        <div class="header__actions">
+          <button class="header__action-button">
+            <img src="images/repair.svg" alt="ремонт" class="header_repair" />
+          </button>
+          <button class="header__action-button">
+            <img src="images/search.svg" alt="поиск" class="header_search" />
+          </button>
         </div>
-      </section>
-    </main>
+      </header>
+      <main>
+        <section class="services">
+          <div class="services__header">
+            <div class="services__line"></div>
+            <h2 class="services__title">Услуги и сервисы</h2>
+          </div>
+          <div class="services__tabs">
+            <button class="services__tab services__tab--active">
+              Ремонтируемые устройства
+            </button>
+            <button class="services__tab">Дополнительные услуги</button>
+            <button class="services__tab">Цены на услуги</button>
+            <button class="services__tab">Специальные цены</button>
+            <button class="services__tab">Адреса сервисных центров</button>
+          </div>
+          <div class="services__content">
+            <p class="services__text">
+              Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.
+            </p>
+          </div>
+          <div>
+            <details>
+              <summary>Читать далее</summary>
+              <p class="services__text">
+                Мы успешно работаем с 1992 года и заслужили репутацию надежного
+                партнера, что подтверждает большое количество постоянных
+                клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям
+                и, в свою очередь, советуют нас родным и близким.
+              </p>
+            </details>
+            <figure class="services__image">
+              <img
+                class="services__photo"
+                src="images/cps-image.png"
+                alt="Наш сервисный центр"
+              />
+            </figure>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
