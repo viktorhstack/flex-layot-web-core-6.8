@@ -393,9 +393,7 @@ display: none;
 .services__tab--desktop-only {
     display: block;
 }
-.services__tabs {
-    padding-left: 32px;
-}
+
 
  .services__actions {
    display: block;
@@ -420,11 +418,11 @@ display: none;
     
  }
 .services__tabs {
-    display: flex;
-    gap: 8px;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    padding-left: 32px;
+
+    overflow-x: visible;
+    flex-wrap: wrap;
+   
 }   
 .services__tab {
     font-family: "TT Lakes";
@@ -435,20 +433,13 @@ display: none;
     color: #7e7e82;
     flex: 0 0 auto;
 }
-.services__tab--review {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px 16px;
-    min-height: 40px;
-    margin-left: 32px;
-    margin-top: 8px;
+
   
-}    
+  
 .services__more {
 margin-left: 32px;
 }
-.services__image{
+.services__image {
    flex: 0 0 600px;
    padding-right: 28px;
    margin-bottom: 49px;
